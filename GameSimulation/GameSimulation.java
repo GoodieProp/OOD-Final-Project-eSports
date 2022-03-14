@@ -7,7 +7,6 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 import CurrentVenueInfo.currentVenueInfo;
-import org.junit.Test;
 
 /**
  * @author Xavier Gonzalez
@@ -38,7 +37,6 @@ public class GameSimulation {
 		}
 	}
 	
-	@Test
 	public void game() {
 		ArrayList<String> games = new ArrayList<String>();
 		games = cvi.getCurrentGameSlot();

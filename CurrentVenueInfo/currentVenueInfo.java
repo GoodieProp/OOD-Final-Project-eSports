@@ -5,7 +5,6 @@ package CurrentVenueInfo;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import FrontDesk.*;
-import org.junit.Test;
 /**
 
 /**
@@ -56,7 +55,6 @@ public class currentVenueInfo {
 		currentGameSlot.remove(0);
 	}
 	
-	@Test
 	public void viewInfo() {
 		int barcode;
 		barcode = fdm.getBarcode();

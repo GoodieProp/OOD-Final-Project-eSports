@@ -3,7 +3,6 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 import CurrentVenueInfo.currentVenueInfo;
-import org.junit.Test;
 
 /**
  * 
@@ -265,7 +264,6 @@ public class FrontDeskMenu {
 	}
 	
 	// welcome functions that the user sees first
-	@Test
 	public void welcome() {
 		Scanner w = new Scanner(System.in);
 		printStars(58);

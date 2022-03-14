@@ -10,7 +10,6 @@ import Command.DrinkOrder;
 import Command.SnackOrder;
 import Command.eSportsEmployee;
 import FrontDesk.FrontDeskMenu;
-import org.junit.Test;
 
 /**
  * @author Xavier Gonzalez
@@ -35,7 +34,6 @@ public class CafeMain {
 		Scanner sc = new Scanner(System.in);
 		int cChoice = 0;
 		boolean done = false;
-		boolean doneBig = false;
 
 		if (choice == 1) {
 			try {
@@ -103,7 +101,7 @@ public class CafeMain {
 			}
 		}
 	}
-	@Test
+
 	public void cafeBar() {
 		Scanner sc = new Scanner(System.in);	
 		boolean done = false;

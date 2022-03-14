@@ -7,7 +7,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import Command.GameOrder;
 import Command.eSportsEmployee;
-import org.junit.Test;
 
 /**
  * @author Xavier Gonzalez
@@ -30,7 +29,6 @@ public class GameMain {
 		esp.purchase(go);	
 	}
 	
-	@Test
 	public void gameBar() {
 		Scanner sc = new Scanner(System.in);
 		boolean done = false;

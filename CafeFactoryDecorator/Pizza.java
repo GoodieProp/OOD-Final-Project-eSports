@@ -18,13 +18,11 @@ public class Pizza extends Snack{
 
 	@Override
 	public Integer drinkVoucher() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Integer snackVoucher() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }

@@ -4,7 +4,6 @@
 package Command;
 
 import GameFactory.GameEmployee;
-import org.junit.Test;
 
 /**
  * @author Xavier Gonzalez
